@@ -27,7 +27,7 @@ function App() {
             console.log(result);
             const datos = result.data;
             if(datos===0){
-              alert("Código Postal no encontrado");
+              alert("Código Postal no encontrado, ingresa un Código valido");
               return(0);
             }
             estado.innerHTML = "<option>"+ datos[0].estado + "</option>";
